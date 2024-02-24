@@ -1,0 +1,305 @@
+.tabwrap{
+    max-width: 1370px;
+}
+.info-title{
+    width: 1388px;
+    height: 74px;
+    background: white;
+    box-shadow: 0px 4px 20px 0px rgb(44 101 144 / 10%);
+    border-radius: 5px 5px 0 0;
+    padding: 20px;
+    margin: 20px 20px 0;
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+.info-body{
+    width: 1388px;
+    height: 935px;
+    line-height: 50px;
+    border-radius: 0 0 5px 5px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px 0px rgb(44 101 144 / 10%); 
+    padding: 20px;
+    margin: 0px 20px 20px 20px;
+}
+.change-pwd .change-pwd-body{
+    width: 1388px;
+    height: 375px;
+    border-radius: 0 0 5px 5px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px 0px rgb(44 101 144 / 10%); 
+    padding: 20px;
+    margin: 0px 20px 20px 20px;
+    line-height: 50px;
+}
+.float-right{
+    float: right;
+    text-decoration: none;
+    color: #0dd6b8;
+}
+.contact .contact-body{
+    width: 1388px;
+    height: 375px;
+    border-radius: 0 0 5px 5px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px 0px rgb(44 101 144 / 10%); 
+    padding: 20px;
+    margin: 0px 20px 20px 20px;
+    line-height: 50px;
+}
+.email .email-body{
+    width: 1388px;
+    height: 620px;
+    border-radius: 0 0 5px 5px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px 0px rgb(44 101 144 / 10%); 
+    padding: 20px;
+    margin: 0px 20px 20px 20px;
+    line-height: 50px;
+}
+.profile-pic{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.p-image .ri-pencil-line .file-upload{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.upload-button {
+    font-size: 1.5em;
+}
+.info-body .submit-button,.change-pwd-body .submit-button,
+.email-body .submit-button,.contact .submit-button{
+    background-color: #0dd6b8;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 54px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+}
+.info-body .cancel-button,.change-pwd-body .cancel-button,
+.email-body .cancel-button,.contact .cancel-button{
+    background-color: #fff5f4;
+    border: none;
+    height: 54px;
+    width: 120px;
+    color: #ff9d8e;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.file-upload{
+    position: relative;
+    display: inline-block;
+    right: 50px;
+    bottom: -40px;
+    margin: 20px;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    background: #0dd6b8;
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+}
+.pointer{
+    cursor: pointer;
+}
+.file-upload input[type="file"]{
+    display: none;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 24px;
+    margin: 20px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #eee;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #0dd6b8;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #0dd6b8;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+.slider.round {
+    border-radius: 34px;
+    border: 1px solid #0dd6b8;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+.switch:hover input ~ .slider.round {
+    background-color: #ccc;
+}
+.switch input:checked ~ .slider.round {
+    background-color: #0dd6b8;
+  }
+.text {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.text input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 17px;
+    left: 7px;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid #0dd6b8;
+}
+.text:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.text input:checked ~ .checkmark {
+    background-color: #0dd6b8;
+  }
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+.text input:checked ~ .checkmark:after {
+    display: block;
+}
+.text .checkmark:after {
+    left: 4px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.tabs {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 1388px;
+    box-shadow: 0px 4px 20px 0px rgb(44 101 144 / 10%);
+    background: white;
+    margin: 20px 0 0 20px;
+}
+    
+.tabs>div{
+    width: calc(100%/4);
+    text-align: center;
+    cursor: pointer;
+}
+.tabs>div.active{
+    color: #0dd6b8;
+}
+.tabs .line {
+    position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 0;
+   height: 6px;
+   border-radius: 15px;
+   background-color: #0dd6b8;
+   transition: all 0.2s ease;
+}
+.info-col{
+    position: relative;
+    height: calc(100% - 60px);
+    padding: 10px 5px;
+}
+.info-col > div{
+    position: absolute;
+    top: -200%;
+    opacity: 0;
+    margin-top: 5px;
+    transform: scale(0.9);
+    transition: opacity 500ms ease-in-out 0ms,
+        transform 500ms ease-in-out 0ms;
+}
+.info-col>div.active{
+    top: 0px;
+    opacity: 1;
+    transform: scale(1);
+    margin-top: 0px;
+}
+.content{
+    height: 1500px;
+    width: 100%;
+}

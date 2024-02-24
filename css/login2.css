@@ -1,0 +1,92 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(
+        to right,
+        #51e3ba 0%,
+        #51e3ba 45%,
+        white 0%,
+        white 100%
+    );
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content{
+    border: none;
+    box-shadow:0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+}
+
+.logo-details{
+    text-align: center;
+    max-width: 325px;
+}
+
+.logo-details img{
+    width: 160px;
+}
+
+.logo-details p{
+    margin: 0px 10px 1rem 10px;
+}
+
+.login_form{
+    text-align: center;
+    width: 400px;
+    margin: 0px 20px 0px 30px;
+    border: none;
+    padding: 20px 10px 20px 10px;
+    background-color: white;
+}
+
+._8icz {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+#login{
+    padding-top: 6px;
+}
+
+#fpassword{
+    margin-top: 16px;
+}
+#fpassword a{
+    text-decoration: none;
+    color: black;
+}
+
+.register{
+    padding-top: 6px;
+    padding-bottom: 20px;
+}
+
+.button{
+    background-color: #51e3ba;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.form-group{
+    padding-bottom: 10px;
+    color: red;
+}
+

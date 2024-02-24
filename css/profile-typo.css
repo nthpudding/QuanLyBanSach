@@ -1,0 +1,41 @@
+.profile-page{
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.profiel-detail{
+    width: 360px;
+}
+p{
+    line-height: 30px;
+}
+.col-sm-6 .mb-0{
+    color: gray;
+}
+.mb-3 h6{
+    align-items: center;
+}
+.col-sm-6 h6 {
+    margin: 0;
+}
+
+.iq-card-body2 .list-inline h6{
+    margin: 0px;
+}
+.media-support h6{
+    line-height: 5px;
+} 
+.top-book-body .mb-0 .mb-3 .text-primary{
+    color: #0dd6b8 !important;
+}
+.text-purple{
+    color: blueviolet;
+}
+.media-support .mb-0,.perfomer-lists .mb-0{
+    color: gray;
+}

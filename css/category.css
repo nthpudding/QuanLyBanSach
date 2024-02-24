@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+tr td, tr th{
+    border: 1px solid rgb(78, 76, 76);
+}
+.card{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+}
+.card{
+    margin: 10px 0 0 0;
+}
+.frow{
+    width: 200px;
+}
+.buttoning{
+    background-color: rgb(133, 166, 194);
+    color: azure;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.counting{
+    display: flex;
+}
+.searching{
+    display: flex;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    margin: 10px 0 0 0;
+}
+.layer1{
+    display: flex;
+    justify-content: space-between;
+}
+.layer3{
+    display: flex;
+    justify-content: space-between;
+}
+.pging{
+    display: inline-block;
+}
+.paging{
+    text-decoration: none;
+}
+.categories{
+    border-radius: 5px ;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+.pagining a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition-duration: .3s;
+    border: 1px solid #ffffff;
+    background-color: rgb(88, 173, 199)
+}
+.bground{
+    background: lightslategray;
+    color: #ffffff;
+    padding: 4px 4px;
+    border-radius: 3px;
+    text-align: center;
+}
+.icon{
+    text-align: center;
+} 
+.table td,th{
+    padding: 0.5rem;
+    vertical-align: middle;
+    text-align: center;
+}
+.table td{
+    background-color: lightgrey;
+}
+.table th{
+    font-size: 1.2em;
+    text-align: center;
+    border-bottom: black;
+    background-color: rgb(138, 157, 177)
+}
+.hadd{
+    margin: 15px 0 15px 0;
+}

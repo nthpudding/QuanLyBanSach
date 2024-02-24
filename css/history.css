@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    border: 1px #000;
+    width: 100%;
+    margin: 15px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+table,th,tr{
+    border: 2px solid wheat;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 6px 10px;
+}
+table thead th{
+    text-align: left;
+}
+.table.table-hover tbody tr:hover{
+    background-color: bisque;
+}
+.stu{
+    color: rgb(231, 240, 232);
+    background-color:rgb(60, 148, 148);
+    width: 39px;
+    text-align: center;
+    border-radius: 5px;
+}
+.st{
+    color: rgb(231, 240, 232);
+    width: 113px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.footer{
+    padding: 0px 0px 0px 80px;
+    transition: all 0.5s ease;
+    border-top: 1px solid  #e3e3e3;
+}
+.wrapfooter{
+    padding: 15px;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.term .privacy:not(:last-child){
+    margin-right: 8px;
+}
+table, footer .footer{
+    box-shadow: 0px 0px 20px 0px rgba(80, 156, 213, 0.3);
+}
+footer .footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.layer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+}
+.pagining a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition-duration: .3s;
+    border: 1px solid #ffffff;
+    background-color: tan;
+}
+.pagining {
+    display: inline-block;
+    width: 18%;
+}
+.pagining, li {
+    list-style: none;
+}

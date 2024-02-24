@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../images/logo/logo.png">
+    <title>Bookstore N5 - frontendweb design</title>
+    <link rel="stylesheet" href="../../css/dashboard.css">
+    <link rel="stylesheet" href="../../css/sidebar.css">
+    <link rel="stylesheet" href="../../css/categorypage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/4c4da71d04.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body class="body">
+        <!--header start-->
+        <header>
+            <div class="sidebar close">
+                <div class="logo-details">
+                    <i class='bx bx-menu'></i>
+                    <!-- <i class="fa-solid fa-5"></i> -->
+                    <span class="logo_name">Bookstore N5</span>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <div class="iocn-link">
+                            <a href="../../web/TrinhGiaKhanh/homepage.html">
+                                <i class='bx bx-store'></i>
+                                <span class="link_name">Shop</span>
+                            </a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a class="link_name" href="../../web/TrinhGiaKhanh/homepage.html">Shop</a></li>
+                            <li><a href="../../web/TrinhGiaKhanh/homepage.html">Home page</a></li>
+                            <li><a href="../../web/TrinhGiaKhanh/categorypage.html">Category page</a></li>
+                            <li><a href="../../web/TrinhGiaKhanh/bookpage.html">Book page</a></li>
+                            <li><a href="../../web/TrinhGiaKhanh/checkout.html">Checkout</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../../web/TrinhGiaKhanh/dashboard.html">
+                            <i class='bx bx-grid-alt'></i>
+                            <span class="link_name">Dashboard</span>
+                        </a>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="../../web/TrinhGiaKhanh/dashboard.html">Dashboard</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="iocn-link">
+                            <a href="../../web/NguyenTaiAnhQuan/category.html">
+                                <i class='bx bx-collection'></i>
+                                <span class="link_name">Category</span>
+                            </a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a class="link_name" href="../../web/NguyenTaiAnhQuan/category.html">Category</a></li>
+                            <li><a href="../../web/NguyenTaiAnhQuan/category.html">Books category</a></li>
+                            <li><a href="../../web/NguyenTaiAnhQuan/Author.html">Author</a></li>
+                            <li><a href="../../web/NguyenTaiAnhQuan/booklists.html">Books</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="iocn-link">
+                            <a href="../../web/NguyenTienHieu/admin-profile.html">
+                                <i class='bx bx-user'></i>
+                                <span class="link_name">Admin</span>
+                            </a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a class="link_name" href="../../web/NguyenTienHieu/admin-profile.html">Admin</a></li>
+                            <li><a href="../../web/NguyenTienHieu/admin-profile.html">Admin Profile</a></li>
+                            <li><a href="../../web/NguyenTienHieu/admin-profile-edit.html">Admin Edit</a></li>
+                            <li><a href="../../web/NguyenTienHieu/admin-profile-list.html">Admin List</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="iocn-link">
+                            <a href="../../web/DoThiThuHuong/user-list.html">
+                                <i class='bx bx-user-plus'></i>
+                                <span class="link_name">User</span>
+                            </a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a class="link_name" href="../../web/DoThiThuHuong/user-list.html">User</a></li>
+                            <li><a href="../../web/DoThiThuHuong/user-list.html">User list</a></li>
+                            <li><a href="../../web/DoThiThuHuong/user-add.html">Add user</a></li>
+                            <li><a href="../../web/NguyenTienHieu/user-edit.html">User Edit</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li>
+                        <a href="#">
+                            <i class='bx bx-user-plus'></i>
+                            <span class="link_name">User List</span>
+                        </a>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">User List</a></li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-line-chart'></i>
+                            <span class="link_name">Chart</span>
+                        </a>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">Chart</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../../web/DoThiThuHuong/history.html">
+                            <i class='bx bx-history'></i>
+                            <span class="link_name">History</span>
+                        </a>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="../../web/DoThiThuHuong/history.html">History</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-cog'></i>
+                            <span class="link_name">Setting</span>
+                        </a>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">Setting</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="profile-details">
+                            
+                            <div class="name-job">
+                                <div class="profile_name">Team 5 </div>
+                                <div class="job">Web Frontend Desginer</div>
+                            </div>
+                            <a href="../../login2.html"><i class='bx bx-log-out'></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <section class="home-section">
+                <div class="home-content">
+                    <div class="left-panel">
+                        <h4>Category page</h4>
+                        <div>
+                            <span class="home">Home</span> > <span>Category page</span>
+                        </div>
+                    </div>
+                    <div class="search_form">
+                        <form class="search">
+                            <input type="text" placeholder="Search..." class="input">
+                            <button type="submit" class="button"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                    <div class="right-panel">
+                        <div class="iconwarn">
+                            <i class='bx bxs-bell'></i>
+                        </div>
+                        <div class="iconwarn">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="iconwarn">
+                            <i class="fa-solid fa-shop"></i>
+                        </div>
+                        <div class="usericon">
+                            <a href="../../web/NguyenTienHieu/admin-profile.html">
+                                <div class="userimage">
+                                    <img src="../../images/author/avatar.jpg" alt="user-avatar">
+                                </div>
+                                <div class="username">
+                                    <span>Trịnh Gia Khánh</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <!--header end-->
+
+        <!--content start-->
+        <div class="content">
+            <!-- <div class="head">
+                <div class="headcontent">
+                    <h1>Homepage</h1>
+                    <span>Homepage</span>
+                </div>
+            </div> -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="search-book">
+                            <h1>SEARCH BY BOOK NAME</h1>
+                            <div class="selection">
+                                <form action="">
+                                    <ul class="selection-list">
+                                        <li>
+                                            <select class="form-control" id="type-of-book">
+                                                <option selected="">All</option>
+                                                <option>A Books</option>
+                                                <option>the Sun</option>
+                                                <option>Harsh book</option>
+                                                <option>People book</option>
+                                                <option>the Fog</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <select class="form-control" id="type-of-category">
+                                                <option selected="">Genres</option>
+                                                <option>General</option>
+                                                <option>History</option>
+                                                <option>Horror</option>
+                                                <option>Fantasy</option>
+                                                <option>Literary</option>
+                                                <option>Manga</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <select class="form-control" id="years">
+                                                <option selected="">Year</option>
+                                                <option>2015</option>
+                                                <option>2016</option>
+                                                <option>2017</option>
+                                                <option>2018</option>
+                                                <option>2019</option>
+                                                <option>2020</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <select class="form-control" id="author">
+                                                <option selected="">Author</option>
+                                                <option>Milesiy Yor</option>
+                                                <option>Ira Membrit</option>
+                                                <option>Anna Mull</option>
+                                                <option>John Smith</option>
+                                                <option>David King</option>
+                                                <option>Kusti Franti</option>
+                                            </select>
+                                        </li>
+                                        <li class="search-menu-opt">
+                                            <div class="search-flex">
+                                                <div>
+                                                    <input type="text" class="search-here form-control" placeholder="search here...">
+                                                <a class="search-link" href="#"><i class="ri-search-line"></i></a>
+                                                </div>
+                                                <div>
+                                                    <button type="submit" class="submit-search-book">Search</button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="booklist">
+                            <div class="browser-books-title">
+                                <div class="header-title">
+                                    <h4>Browser books</h4>
+                                </div>
+                                <div class="header-toolbar">
+                                    <a href="../../web/TrinhGiaKhanh/categorypage.html" class="viewmore">View more</a>
+                                </div>
+                            </div>
+                            <div class="browser-books-body">
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                    <div class="books">
+                                        <div class="book-img">
+                                            <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/Killingaslime.jpg" alt=""></a>
+                                        </div>
+                                        <div class="book-title">
+                                            <div class="book-name">
+                                                <h6><a href="#">Kill slime for 300 years</a></h6>
+                                                <p><a href="#"> Kisetsu Morita </a></p>
+                                            </div>
+                                            <div class="star">
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$100 </span>
+                                                <span class="new-price">$90</span>
+                                            </div>
+                                            <div class="buy">
+                                                <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                    <div class="books">
+                                        <div class="book-img">
+                                            <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/valorant.jpg" alt=""></a>
+                                        </div>
+                                        <div class="book-title">
+                                            <div class="book-name">
+                                                <h6><a href="#">How to improve your gamesense</a></h6>
+                                                <p><a href="#">Kaishi Kagami</a></p>
+                                            </div>
+                                            <div class="star">
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$100 </span>
+                                                <span class="new-price">$90</span>
+                                            </div>
+                                            <div class="buy">
+                                                <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                    <div class="books">
+                                        <div class="book-img">
+                                            <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/the-little-prince-1606458834.jpg" alt=""></a>
+                                        </div>
+                                        <div class="book-title">
+                                            <div class="book-name">
+                                                <h6><a href="#">The little prince</a></h6>
+                                                <p><a href="#">Antoine de Saint-Exupéry</a></p>
+                                            </div>
+                                            <div class="star">
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$100 </span>
+                                                <span class="new-price">$90</span>
+                                            </div>
+                                            <div class="buy">
+                                                <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                    <div class="books">
+                                        <div class="book-img">
+                                            <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/the-lord-of-rings.jpg" alt=""></a>
+                                        </div>
+                                        <div class="book-title">
+                                            <div class="book-name">
+                                                <h6><a href="#">The lord of the rings</a></h6>
+                                                <p><a href="#">John Ronald Reuel Tolkien</a></p>
+                                            </div>
+                                            <div class="star">
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$100 </span>
+                                                <span class="new-price">$90</span>
+                                            </div>
+                                            <div class="buy">
+                                                <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                    <div class="books">
+                                        <div class="book-img">
+                                            <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/java-for-beginner.jpg" alt=""></a>
+                                        </div>
+                                        <div class="book-title">
+                                            <div class="book-name">
+                                                <h6><a href="#">JAVA PROGRAMMING FOR BEGINNERS</a></h6>
+                                                <p><a href="#">Will Norton</a></p>
+                                            </div>
+                                            <div class="star">
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$100 </span>
+                                                <span class="new-price">$90</span>
+                                            </div>
+                                            <div class="buy">
+                                                <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                    <div class="books">
+                                        <div class="book-img">
+                                            <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/shield-hero.jpg" alt=""></a>
+                                        </div>
+                                        <div class="book-title">
+                                            <div class="book-name">
+                                                <h6><a href="#">The Rising of the Shield Hero</a></h6>
+                                                <p><a href="#">Aneko Yusagi</a></p>
+                                            </div>
+                                            <div class="star">
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$100 </span>
+                                                <span class="new-price">$90</span>
+                                            </div>
+                                            <div class="buy">
+                                                <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                    <div class="books">
+                                        <div class="book-img">
+                                            <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/tuoi-tre-dan-gia-bao-nhieu.jpg" alt=""></a>
+                                        </div>
+                                        <div class="book-title">
+                                            <div class="book-name">
+                                                <h6><a href="#">Tuổi trẻ đáng giá bao nhiêu ?</a></h6>
+                                                <p><a href="#">Rosie Nguyễn</a></p>
+                                            </div>
+                                            <div class="star">
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$100 </span>
+                                                <span class="new-price">$90</span>
+                                            </div>
+                                            <div class="buy">
+                                                <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                    <div class="books">
+                                        <div class="book-img">
+                                            <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/Don-Quixote.jpg" alt=""></a>
+                                        </div>
+                                        <div class="book-title">
+                                            <div class="book-name">
+                                                <h6><a href="#">Don Quixote</a></h6>
+                                                <p><a href="#">Miguel de Cervantes</a></p>
+                                            </div>
+                                            <div class="star">
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$100 </span>
+                                                <span class="new-price">$90</span>
+                                            </div>
+                                            <div class="buy">
+                                                <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                    <div class="books">
+                                        <div class="book-img">
+                                            <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/That-Time-I-Got-Reincarnated-as-a-Slime.jpg" alt=""></a>
+                                        </div>
+                                        <div class="book-title">
+                                            <div class="book-name">
+                                                <h6><a href="#">That Time I Got Reincarnated as a Slime</a></h6>
+                                                <p><a href="#">Mitz Vah</a></p>
+                                            </div>
+                                            <div class="star">
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$100 </span>
+                                                <span class="new-price">$90</span>
+                                            </div>
+                                            <div class="buy">
+                                                <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                    <div class="books">
+                                        <div class="book-img">
+                                            <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/moby-dick-118.jpg" alt=""></a>
+                                        </div>
+                                        <div class="book-title">
+                                            <div class="book-name">
+                                                <h6><a href="#">Moby Dick</a></h6>
+                                                <p><a href="#">Herman Melville</a></p>
+                                            </div>
+                                            <div class="star">
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$100 </span>
+                                                <span class="new-price">$90</span>
+                                            </div>
+                                            <div class="buy">
+                                                <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                    <div class="books">
+                                        <div class="book-img">
+                                            <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/the-adventures-of-huckleberry-finn-257.jpg" alt=""></a>
+                                        </div>
+                                        <div class="book-title">
+                                            <div class="book-name">
+                                                <h6><a href="#">The Adventures of Huckleberry Finn</a></h6>
+                                                <p><a href="#">Mark Twain</a></p>
+                                            </div>
+                                            <div class="star">
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$100 </span>
+                                                <span class="new-price">$90</span>
+                                            </div>
+                                            <div class="buy">
+                                                <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4 col-lg-3">
+                                    <div class="books">
+                                        <div class="book-img">
+                                            <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/Classroom-of-the-Elite.jpg" alt=""></a>
+                                        </div>
+                                        <div class="book-title">
+                                            <div class="book-name">
+                                                <h6><a href="#">Classroom of the Elite</a></h6>
+                                                <p><a href="#">Shōgo Kinugasa</a></p>
+                                            </div>
+                                            <div class="star">
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                                <i class='bx bxs-star' ></i>
+                                            </div>
+                                            <div class="price">
+                                                <span class="old-price">$100 </span>
+                                                <span class="new-price">$90</span>
+                                            </div>
+                                            <div class="buy">
+                                                <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="next">
+                                <ul class="NextPage">
+                                    <table>
+                                        <tr>
+                                            <td><li><a href="#">Previous</a></li></td>
+                                            <td><li><a href="#">  1  </a></li></td>
+                                            <td><li><a href="#">  2  </a></li></td>
+                                            <td><li><a href="#">  3  </a></li></td>
+                                            <td><li><a href="#">  4  </a></li></td>
+                                            <td><li><a class="last" href="#">Next</a></li></td>
+                                        </tr>
+                                    </table>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="similar-book">
+                            <div class="similar-book-title">
+                                <div class="header-title">
+                                    <h4>Similar Books</h4>
+                                </div>
+                                <div class="header-toolbar">
+                                    <a href="../../web/TrinhGiaKhanh/categorypage.html" class="viewmore">View more</a>
+                                </div>
+                            </div>
+                            <div class="similar-book-body">
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="similar-books">
+                                                <div class="book-img">
+                                                    <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/valorant.jpg" alt=""></a>
+                                                </div>
+                                                <div class="book-title">
+                                                    <div class="book-name">
+                                                        <h6><a href="#">How to improve your gamesense</a></h6>
+                                                        <p><a href="#">Kaishi Kagami</a></p>
+                                                    </div>
+                                                    <div class="star">
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                    </div>
+                                                    <div class="price">
+                                                        <span class="old-price">$100 </span>
+                                                        <span class="new-price">$90</span>
+                                                    </div>
+                                                    <div class="buy">
+                                                        <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                        <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                        <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="similar-books">
+                                                <div class="book-img">
+                                                    <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/AnnaKarenina.jpg" alt=""></a>
+                                                </div>
+                                                <div class="book-title">
+                                                    <div class="book-name">
+                                                        <h6><a href="#">Anna Karenina</a></h6>
+                                                        <p><a href="#">Leo Tolstoys</a></p>
+                                                    </div>
+                                                    <div class="star">
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                    </div>
+                                                    <div class="price">
+                                                        <span class="old-price">$100 </span>
+                                                        <span class="new-price">$90</span>
+                                                    </div>
+                                                    <div class="buy">
+                                                        <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                        <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                        <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="similar-books">
+                                                <div class="book-img">
+                                                    <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/to_kill_a_mockingbird__harper_lee.jpg" alt=""></a>
+                                                </div>
+                                                <div class="book-title">
+                                                    <div class="book-name">
+                                                        <h6><a href="#">To Kill a Mockingbird</a></h6>
+                                                        <p><a href="#">Harper Lee</a></p>
+                                                    </div>
+                                                    <div class="star">
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                    </div>
+                                                    <div class="price">
+                                                        <span class="old-price">$100 </span>
+                                                        <span class="new-price">$90</span>
+                                                    </div>
+                                                    <div class="buy">
+                                                        <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                        <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                        <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="similar-books">
+                                                <div class="book-img">
+                                                    <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/The_Great_Gatsby_Cover_1925_Retouched.jpg" alt=""></a>
+                                                </div>
+                                                <div class="book-title">
+                                                    <div class="book-name">
+                                                        <h6><a href="#">The Great Gatsby</a></h6>
+                                                        <p><a href="#">F. Scott Fitzgerald </a></p>
+                                                    </div>
+                                                    <div class="star">
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                    </div>
+                                                    <div class="price">
+                                                        <span class="old-price">$100 </span>
+                                                        <span class="new-price">$90</span>
+                                                    </div>
+                                                    <div class="buy">
+                                                        <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                        <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                        <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="trendy-book">
+                            <div class="trendy-book-title">
+                                <div class="header-title">
+                                    <h4>Trendy Books</h4>
+                                </div>
+                                <div class="header-toolbar">
+                                    <a href="../../web/TrinhGiaKhanh/categorypage.html" class="viewmore">View more</a>
+                                </div>
+                            </div>
+                            <div class="trendy-book-body">
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="trendy-books">
+                                                <div class="book-img">
+                                                    <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/One-Hundred-Years-of-Solitude.jpg" alt=""></a>
+                                                </div>
+                                                <div class="book-title">
+                                                    <div class="book-name">
+                                                        <h6><a href="#">One Hundred Years of Solitude</a></h6>
+                                                        <p><a href="#">Gabriel García Márquez</a></p>
+                                                    </div>
+                                                    <div class="star">
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                    </div>
+                                                    <div class="price">
+                                                        <span class="old-price">$100 </span>
+                                                        <span class="new-price">$90</span>
+                                                    </div>
+                                                    <div class="buy">
+                                                        <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                        <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                        <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="trendy-books">
+                                                <div class="book-img">
+                                                    <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/A-Passage-to-India.jpg" alt=""></a>
+                                                </div>
+                                                <div class="book-title">
+                                                    <div class="book-name">
+                                                        <h6><a href="#">A Passage to India</a></h6>
+                                                        <p><a href="#"> E. M. Forster</a></p>
+                                                    </div>
+                                                    <div class="star">
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                    </div>
+                                                    <div class="price">
+                                                        <span class="old-price">$100 </span>
+                                                        <span class="new-price">$90</span>
+                                                    </div>
+                                                    <div class="buy">
+                                                        <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                        <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                        <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="trendy-books">
+                                                <div class="book-img">
+                                                    <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/invisible-man.jpg" alt=""></a>
+                                                </div>
+                                                <div class="book-title">
+                                                    <div class="book-name">
+                                                        <h6><a href="#">Invisible Man</a></h6>
+                                                        <p><a href="#">H. G. Wells.</a></p>
+                                                    </div>
+                                                    <div class="star">
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                        <i class='bx bxs-star' ></i>
+                                                    </div>
+                                                    <div class="price">
+                                                        <span class="old-price">$100 </span>
+                                                        <span class="new-price">$90</span>
+                                                    </div>
+                                                    <div class="buy">
+                                                        <a href="#" class="add-to-cart"><i class='bx bxs-cart'></i></a>
+                                                        <a href="#" class="add-to-favourite"><i class='bx bxs-heart'></i></a>
+                                                        <a href="#" class="go-to-view"><i class="fa-solid fa-eye"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="favourite-read">
+                            <div class="favourite-read-title">
+                                <div class="header-title">
+                                    <h4>Favourite read</h4>
+                                </div>
+                                <div class="header-toolbar">
+                                    <a href="../../web/TrinhGiaKhanh/categorypage.html" class="viewmore">View more</a>
+                                </div>
+                            </div>
+                            <div class="favourite-read-body">
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="favourite-read-books">
+                                                <div class="book-img">
+                                                    <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/Killingaslime.jpg" alt=""></a>
+                                                </div>
+                                                <div class="book-title">
+                                                    <div class="favourite-read-book-name">
+                                                        <h6><a href="#">Kill slime for 300 years</a></h6>
+                                                        <p><a href="#">Author: Kisetsu Morita </a></p>
+                                                        <span class="label">Reading: 75%</span>
+                                                        <span class="progress" data-value="75%"></span>
+                                                        <span><a href="../../web/TrinhGiaKhanh/bookpage.html">Read more ></a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="favourite-read-books">
+                                                <div class="book-img">
+                                                    <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/valorant.jpg" alt=""></a>
+                                                </div>
+                                                <div class="book-title">
+                                                    <div class="favourite-read-book-name">
+                                                        <h6><a href="#">How to improve your gamesense</a></h6>
+                                                        <p><a href="#">Author: Kaishi kagami </a></p>
+                                                        <span class="label">Reading: 75%</span>
+                                                        <span class="progress" data-value="75%"></span>
+                                                        <span><a href="../../web/TrinhGiaKhanh/bookpage.html">Read more ></a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="favourite-read-books">
+                                                <div class="book-img">
+                                                    <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/moby-dick-118.jpg" alt=""></a>
+                                                </div>
+                                                <div class="book-title">
+                                                    <div class="favourite-read-book-name">
+                                                        <h6><a href="#">Moby Dick</a></h6>
+                                                        <p><a href="#">Author: Herman Melville </a></p>
+                                                        <span class="label">Reading: 75%</span>
+                                                        <span class="progress" data-value="75%"></span>
+                                                        <span><a href="../../web/TrinhGiaKhanh/bookpage.html">Read more ></a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="favourite-read-books">
+                                                <div class="book-img">
+                                                    <a href="../TrinhGiaKhanh/bookpage.html"><img src="../../images/books/tuoi-tre-dan-gia-bao-nhieu.jpg" alt=""></a>
+                                                </div>
+                                                <div class="book-title">
+                                                    <div class="favourite-read-book-name">
+                                                        <h6><a href="#">Tuổi trẻ đáng giá bao nhiêu</a></h6>
+                                                        <p><a href="#">Author: Rosie Nguyễn </a></p>
+                                                        <span class="label">Reading: 75%</span>
+                                                        <span class="progress" data-value="75%"></span>
+                                                        <span><a href="../../web/TrinhGiaKhanh/bookpage.html">Read more ></a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--content end-->
+
+        <!--footer start-->
+        <footer>
+            <div class="footer">
+                <div class="wrapfooter">
+                    <div class="term">
+                        <ul>
+                            <li class="privacy"><a href="#">Privacy Policy</a></li>
+                            <li class="privacy"><a href="#">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                    <div class="policy">
+                        <span>Bookstore admin page by <span style="font-weight: 700;">team 5</span> web-frontend</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--footer end-->
+    <script src="https://kit.fontawesome.com/4c4da71d04.js" crossorigin="anonymous"></script>
+    <script src="../../js/sidebar.js"></script>
+    <!--Script for percent bar-->
+    <script src="../../js/homepage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+            var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 70,
+                    loop: true,
+                    autoplay: {
+                    delay: 4500,
+                    disableOnInteraction: false,
+                },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    breakpoints: {
+                    640: {
+                        slidesPerView: 4,
+                        spaceBetween: 30,
+                    },
+                    
+                },
+                });
+    </script>
+</body>
+
+</html>

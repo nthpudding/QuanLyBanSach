@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.info-title{
+    width: 100%;
+    height: 74px;
+    background: white;
+    box-shadow: 0px 4px 20px 0px rgb(44 101 144 / 10%);
+    border-radius: 5px 5px 0 0;
+    padding: 20px;
+    margin: 20px 20px 0;
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+.info-body{
+    width: 100%;
+    height: 935px;
+    line-height: 50px;
+    border-radius: 0 0 5px 5px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px 0px rgb(44 101 144 / 10%); 
+    padding: 20px;
+    margin: 0px 20px 20px 20px;
+}
+form.search-box input[type=text] {
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(149, 148, 148);
+    float: left;
+    width: 15%;
+    border-radius: 5px;
+    height: 50px;
+    background: white;
+}
+.admin-files{
+    display: flex !important;
+    float: right;
+}
+.admin-files a{
+    padding: 10px 15px;
+    margin: 0 0 0 10px;
+    border-radius: 5px;
+    line-height: normal;
+    text-decoration: none;
+    background: #f1f1f1;
+    box-shadow: 0px 4px 20px 0px rgb(44 101 144 / 10%);
+    color: #2bdbc1; 
+}
+.profile-pic{
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding: 3px;
+}
+table, td, th {
+    border: 2px solid rgb(170, 170, 170) !important;
+    text-align: center;
+}
+tr:nth-child(2n){
+    background: #f1f1f1;
+}
+table {
+    width: 100%;
+}
+.admin-action{
+    color: #2bdbc1;
+    padding: 2px;
+}
+.name-list{
+    text-decoration: none;
+    color: black;
+}
+.admin-list{
+    max-width: 1370px;
+}
